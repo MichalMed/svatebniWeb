@@ -2284,18 +2284,15 @@
 				display: block;
 				float: left;
 				padding: 3em 0;
-				width: 50%;
+				width: 100%;
 			}
 
 				ul.icons-grid li h3 {
 					margin: 0;
 				}
+				
 
-				ul.icons-grid li:nth-child(2n + 1) {
-					box-shadow: inset -1px 0 0 0 #dddddd, 1px 0 0 0 #dddddd;
-				}
-
-				ul.icons-grid li:nth-child(2n + 3):before {
+				ul.icons-grid li:nth-child(n):before {
 					background: #dddddd;
 					content: '';
 					display: block;
